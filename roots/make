@@ -1,0 +1,3 @@
+# zero
+zero: zero.cpp
+	g++ zero.cpp -o zero
