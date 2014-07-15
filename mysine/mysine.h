@@ -1,6 +1,6 @@
 /*
 Ryan Justus
-CNS 3320 – Numerical Software
+CNS 3320 ï¿½ Numerical Software
 Program 2
 Elementary Functions
 */
@@ -13,13 +13,13 @@ const double PI2 = 8.908910206761537356617e-06;
 
 //Polynomial coefficients
 const double C0 = -0.16666666666666665052;
-const double C1 = 0.83333333333331550314e02;
-const double C2 = -0.19841269841201840457e03;
-const double C3 = 0.27557319210152756119e05;
-const double C4 = -0.25052106798274584544e07;
-const double C5 = 0.16058936490371589114e09;
-const double C6 = -0.76429178068910467734e12;
-const double C7 = 0.27204790957888846175e14;
+const double C1 = 0.83333333333331550314e-02;
+const double C2 = -0.19841269841201840457e-03;
+const double C3 = 0.27557319210152756119e-05;
+const double C4 = -0.25052106798274584544e-07;
+const double C5 = 0.16058936490371589114e-09;
+const double C6 = -0.76429178068910467734e-12;
+const double C7 = 0.27204790957888846175e-14;
 
 int sign_bit(double x){
 	unsigned long long* num = reinterpret_cast<unsigned long long*>(&x);
